@@ -1,0 +1,38 @@
+name: edge_mcp_flutter
+description: On-device LLM inference for iOS/macOS with cloud fallback using Apple's Neural Engine and Core ML.
+version: 0.1.0
+homepage: https://github.com/username/edge_mcp_flutter
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  ffi: ^2.1.0
+  http: ^1.1.0
+  meta: ^1.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  ffigen: ^9.0.1
+
+flutter:
+  plugin:
+    platforms:
+      ios:
+        pluginClass: EdgeMcpFlutterPlugin
+        source: ios
+      macos:
+        pluginClass: EdgeMcpFlutterPlugin
+        source: macos
+
+ffigen:
+  output: 'lib/src/ffi/native_edge_llm_ios_bindings.dart'
+  headers:
+    entry-points:
+      - 'ios/Classes/native_edge_llm_ios.h'
+  name: 'NativeEdgeLlmIosBindings' 
