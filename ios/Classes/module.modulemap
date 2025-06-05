@@ -1,0 +1,11 @@
+framework module edge_mcp_flutter {
+  umbrella header "EdgeMcpFlutter.h"
+  
+  explicit module MLCBridge {
+    header "MLCBridge.h"
+    export *
+  }
+  
+  export *
+  module * { export * }
+} 
