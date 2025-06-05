@@ -26,8 +26,8 @@ build.log
 # FFI Generated files
 lib/src/ffi/*_bindings.dart
 
-# Model files (large binaries)
-models/
+# Model files (large binaries) - only exclude binary models, not Dart model classes
+/models/
 *.mlpackage
 *.mlmodel
 *.onnx

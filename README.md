@@ -221,27 +221,6 @@ Features:
 - 🎮 Interactive prompt testing
 - 📱 Native iOS/macOS UI
 
-## 🧪 Testing
-
-### Unit Tests
-```bash
-flutter test
-```
-
-### Integration Tests
-```bash
-flutter test integration_test/
-```
-
-### Performance Tests
-```bash
-# iOS Simulator
-flutter drive --target=test_driver/perf_test.dart
-
-# Physical Device
-flutter drive --target=test_driver/perf_test.dart -d [device-id]
-```
-
 ## 📋 Requirements
 
 ### Development
@@ -256,40 +235,6 @@ flutter drive --target=test_driver/perf_test.dart -d [device-id]
 - Memory: 4GB+ available
 - Storage: 5GB+ for models
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch: `git checkout -b feature/amazing-feature`
-3. Commit your changes: `git commit -m 'Add amazing feature'`
-4. Push to the branch: `git push origin feature/amazing-feature`
-5. Open a Pull Request
-
-### Development Setup
-```bash
-git clone https://github.com/username/edge_mcp_flutter.git
-cd edge_mcp_flutter
-flutter pub get
-cd example && flutter pub get
-```
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Apple's Core ML team for Neural Engine APIs
-- MLC-LLM project for CPU backend inspiration
-- Flutter team for excellent plugin architecture
-- Open source LLM community
-
-## 📞 Support
-
-- 📖 [Documentation](https://github.com/username/edge_mcp_flutter/wiki)
-- 🐛 [Issue Tracker](https://github.com/username/edge_mcp_flutter/issues)
-- 💬 [Discussions](https://github.com/username/edge_mcp_flutter/discussions)
-- 📧 [Email Support](mailto:support@example.com)
-
----
-
-**Made with ❤️ for the Flutter community** 
