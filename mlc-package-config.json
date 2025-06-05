@@ -1,0 +1,12 @@
+{
+    "device": "iphone",
+    "model_list": [
+        {
+            "model": "TinyLlama-1.1B-Chat-v1.0-q4f16_1-MLC",
+            "model_path": "/Users/mohammad/Documents/GitHub/edge_mcp_flutter/models/TinyLlama-1.1B-Chat-v1.0-q4f16_1-MLC",
+            "model_id": "TinyLlama-1.1B-MLC",
+            "estimated_vram_bytes": 716000000,
+            "bundle_weight": true
+        }
+    ]
+}
