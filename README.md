@@ -313,23 +313,8 @@ edge_mcp_flutter/
    }
    ```
 
-## 🤝 Contributing
-
-Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
 
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🔗 Links
-
-- [GitHub Repository](https://github.com/mohammad/edge_mcp_flutter)
-- [API Documentation](https://pub.dev/documentation/edge_mcp_flutter)
-- [Example App](./example/)
-- [MLC-LLM Documentation](https://mlc.ai/mlc-llm/)
-
-## 📞 Support
-
-- 🐛 [Report Issues](https://github.com/mohammad/edge_mcp_flutter/issues)
-- 💬 [Discussions](https://github.com/mohammad/edge_mcp_flutter/discussions)
-- 📧 [Email Support](mailto:support@example.com)
