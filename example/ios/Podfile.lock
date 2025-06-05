@@ -1,0 +1,22 @@
+PODS:
+  - edge_mcp_flutter (0.1.0):
+    - Flutter
+  - Flutter (1.0.0)
+
+DEPENDENCIES:
+  - edge_mcp_flutter (from `.symlinks/plugins/edge_mcp_flutter/ios`)
+  - Flutter (from `Flutter`)
+
+EXTERNAL SOURCES:
+  edge_mcp_flutter:
+    :path: ".symlinks/plugins/edge_mcp_flutter/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  edge_mcp_flutter: ff785b0f23525617baf065d2aaeb863bb00a97f0
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+
+PODFILE CHECKSUM: 53a6aebc29ccee84c41f92f409fc20cd4ca011f1
+
+COCOAPODS: 1.16.1
